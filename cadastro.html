@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizonte Blue - Cadastro</title>
+    <link href="style.css" rel="stylesheet"> 
+</head>
+
+<body>
+    <header class="formatacao">
+        <h1 class="formatacao1">Horizonte Blue</h1>
+    </header>
+    <nav class="formatacao2">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="destinos.html">Destinos</a></li>
+            <li><a href="login.html">Entrar</a></li>
+        </ul>
+    </nav>
+
+    <div class="container2">
+        <form id="form-cadastro">
+            <h2>Cadastro de usuário</h2>
+            <br>
+
+            <label>Nome:</label>
+            <br>
+            <input type="text" id="nome" placeholder="Nome">
+            <br>
+            <small class="erro" id="erro-nome"></small>
+            <br>
+
+            <label>E-mail:</label>
+            <br>
+            <input type="email" id="email" placeholder="Email">
+            <br>
+            <small class="erro" id="erro-email"></small>
+            <br>
+
+            <label>CEP:</label>
+            <br>
+            <input type="text" id="cep" placeholder="CEP" maxlength="8">
+            <br>
+            <small class="erro" id="erro-cep"></small>
+            <br>
+
+            <label>Rua:</label>
+            <br>
+            <input type="text" id="rua" placeholder="Rua">
+            <br>
+
+            <label>Bairro:</label>
+            <br>
+            <input type="text" id="bairro" placeholder="Bairro">
+            <br>
+
+            <label>Cidade:</label>
+            <br>
+            <input type="text" id="cidade" placeholder="Cidade">
+            <br>
+
+            <label>Estado:</label>
+            <br>
+            <input type="text" id="estado" placeholder="Estado">
+            <br>
+
+            <label>Senha:</label>
+            <br>
+            <input type="password" id="senha" placeholder="Senha">
+            <br>
+            <small class="erro" id="erro-senha"></small>
+
+            <br>
+
+            <button type="submit">Cadastrar</button>
+
+            <p id="mensagem"></p>
+        </form>
+    </div>
+
+
+    <footer class="formatacaoF">
+        © 2026 Horizonte Blue - Viagens & Turismo 
+        <br><br>
+        Contato: (11) 9999-9999 | contato@horizonteblue.com.br
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
